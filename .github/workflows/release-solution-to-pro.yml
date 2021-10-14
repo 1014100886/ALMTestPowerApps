@@ -63,4 +63,4 @@ jobs:
         password-secret: ${{ secrets.password1 }}
         solution-file: out/release/ALMLab.zip
         force-overwrite: true
-        publish-changes: true0
+        publish-changes: true
