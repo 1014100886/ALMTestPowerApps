@@ -4,10 +4,9 @@ name: release-solution-to-prod
 #   upload the solution to the GitHub artifacts and deploy to the PROD environment
 
 on:
-  workflow_dispatch:
-  release:
-    types: [created]
-
+  repository_dispatch:
+    types: [release-product]
+    
 jobs:
   convert-to-managed:
     runs-on: windows-latest
