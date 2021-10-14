@@ -83,6 +83,7 @@
       <RootComponent type="9" schemaName="alm_approved" behavior="0" />
       <RootComponent type="62" schemaName="alm_TimeoffRequests" behavior="0" />
       <RootComponent type="80" schemaName="alm_TimeoffRequests" behavior="0" />
+      <RootComponent type="300" schemaName="ztd_pomanagement_f418c" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
