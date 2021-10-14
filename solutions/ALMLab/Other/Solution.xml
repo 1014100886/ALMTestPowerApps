@@ -6,7 +6,7 @@
       <LocalizedName description="ALMTest" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.1</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>almTest</UniqueName>
@@ -79,6 +79,8 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="alm_almtest" behavior="0" />
+      <RootComponent type="9" schemaName="alm_approve" behavior="0" />
+      <RootComponent type="9" schemaName="alm_approved" behavior="0" />
       <RootComponent type="62" schemaName="alm_TimeoffRequests" behavior="0" />
       <RootComponent type="80" schemaName="alm_TimeoffRequests" behavior="0" />
     </RootComponents>
