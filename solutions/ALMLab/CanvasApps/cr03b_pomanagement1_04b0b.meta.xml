@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>cr03b_pomanagement1_04b0b</Name>
+  <AppVersion>2021-08-17T09:08:00Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21081.49.0</CreatedByClientVersion>
+  <MinClientVersion>3.21081.49.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"608","sienaVersion":"20210817T033144Z-3.21081.49.0","deviceCapabilities":"","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21081.49","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>PO Management_1</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"eb1313af-669e-401f-8ed3-827f6c6960f4":{"id":"/providers/microsoft.powerapps/apis/shared_sql","displayName":"SQL Server","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1504/1.0.1504.2515/sql/icon.png","dataSources":["t_po_vendor","t_po_user","t_po_dict","v_PO_Vendor_View","t_po_pid","t_po_locationcode","v_PO_ShiptoAddr_Attn_Enabled","t_po_shiptoaddress_dict","t_po_attn_dict","v_PO_User_View","t_po_approval_config"],"dependencies":[],"dependents":["594247de-d1cc-47bc-9f81-dfc3bd26c632","f2fc7a82-0484-4c01-9b73-ded6838e05b6"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"sharedConnectionId":"7e241488-fbcd-47d9-a221-11561f01e1fd","bypassConsent":false,"dataSets":{"ecolab.database.chinacloudapi.cn%2c1433,ppa":{"dataSources":{"t_po_vendor":{"tableName":"[dbo].[t_po_vendor]"},"t_po_user":{"tableName":"[dbo].[t_po_user]"},"t_po_dict":{"tableName":"[dbo].[t_po_dict]"},"v_PO_Vendor_View":{"tableName":"[dbo].[v_PO_Vendor_View]"},"t_po_pid":{"tableName":"[dbo].[t_po_pid]"},"t_po_locationcode":{"tableName":"[dbo].[t_po_locationcode]"},"v_PO_ShiptoAddr_Attn_Enabled":{"tableName":"[dbo].[v_PO_ShiptoAddr_Attn_Enabled]"},"t_po_shiptoaddress_dict":{"tableName":"[dbo].[t_po_shiptoaddress_dict]"},"t_po_attn_dict":{"tableName":"[dbo].[t_po_attn_dict]"},"v_PO_User_View":{"tableName":"[dbo].[v_PO_User_View]"},"t_po_approval_config":{"tableName":"[dbo].[t_po_approval_config]"}}}},"apiTier":"Premium","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write"],"endpoints":["ecolab.database.chinacloudapi.cn%2c1433,ppa"]},"66afe8b5-0cdd-4470-bdcd-b9ec904aba43":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1504/1.0.1504.2515/sharepointonline/icon.png","dataSources":["MyUploadTest"],"dependencies":[],"dependents":["594247de-d1cc-47bc-9f81-dfc3bd26c632"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://digitaltechedge.sharepoint.com/sites/RPAGroup":{"dataSources":{"MyUploadTest":{"tableName":"c6b88336-94ba-452d-9249-86f039e3adb0"}}}},"apiTier":"Standard"},"594247de-d1cc-47bc-9f81-dfc3bd26c632":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1438/1.0.1438.2324/logicflows/icon.png","dataSources":["UploadFile"],"dependencies":["eb1313af-669e-401f-8ed3-827f6c6960f4","66afe8b5-0cdd-4470-bdcd-b9ec904aba43"],"dependents":[],"parameterHints":{"workflowName":{"value":"2189317c-d36d-439f-a4cf-2b4b4dfc80a9"},"workflowEntityId":{},"eb1313af-669e-401f-8ed3-827f6c6960f4":{"value":"shared_sql_1"},"66afe8b5-0cdd-4470-bdcd-b9ec904aba43":{"value":"shared_sharepointonline"}},"parameterHintsV2":{"workflowName":{"value":"2189317c-d36d-439f-a4cf-2b4b4dfc80a9"},"workflowEntityId":{},"shared_sql_1":{"value":"eb1313af-669e-401f-8ed3-827f6c6960f4"},"shared_sharepointonline":{"value":"66afe8b5-0cdd-4470-bdcd-b9ec904aba43"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"f2fc7a82-0484-4c01-9b73-ded6838e05b6":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1438/1.0.1438.2324/logicflows/icon.png","dataSources":["PO-Approval-Enable"],"dependencies":["eb1313af-669e-401f-8ed3-827f6c6960f4"],"dependents":[],"parameterHints":{"workflowName":{"value":"db2266dc-bcbc-4c19-87fe-3b97bf85f2a2"},"workflowEntityId":{},"eb1313af-669e-401f-8ed3-827f6c6960f4":{"value":"shared_sql_1"}},"parameterHintsV2":{"workflowName":{"value":"db2266dc-bcbc-4c19-87fe-3b97bf85f2a2"},"workflowEntityId":{},"shared_sql_1":{"value":"eb1313af-669e-401f-8ed3-827f6c6960f4"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/cr03b_pomanagement1_04b0b_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/cr03b_pomanagement1_04b0b_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
